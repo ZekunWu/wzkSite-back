@@ -21,12 +21,12 @@ module.exports = appInfo => {
     csrf: {
       enable: false,
     },
-    domainWhiteList: [ '*' ],//允许访问接口的白名单，例如：http://localhost:8080 *表示均可访问
+    domainWhiteList: [ '*' ], // 允许访问接口的白名单，例如：http://localhost:8080 *表示均可访问
   };
   config.cors = {
-    origin:'*',
+    origin: '*',
     credentials: true,
-    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
   };
 
   // add your user config here
